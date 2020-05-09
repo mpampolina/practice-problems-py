@@ -22,5 +22,5 @@ def transpose(table):
 
 
 transposed_grid = transpose(grid)
-for innerLists in range(len(transposed_grid)):
+for innerLists in range(len(transposed_grid)):  # print each list in the transposed_grid to console
     print(''.join(transposed_grid[innerLists]))

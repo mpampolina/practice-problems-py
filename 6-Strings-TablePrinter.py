@@ -22,7 +22,7 @@ def column_width(table):        # Find the width of a column based on the larges
     colwidths = [0] * len(table)
     for index in range(len(table)):
         longest_val = 0
-        for val in table[index]:
+        for val in table[index]:    # table[index] is a list
             if len(val) > longest_val:
                 longest_val = len(val)
         colwidths[index] = longest_val
