@@ -1,5 +1,5 @@
 # practice-problems-py
-Repository for my solutions to python assignments and practice problems.
+Repository for my solutions to python assignments and practice problems. It's a little messy around here :3
 
 Assignment Types:
 
